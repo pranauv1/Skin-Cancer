@@ -1,4 +1,4 @@
-###### I've used Google Colab to do the training (Some lines may differ for training locally) ######
+###### I've used Google Colab to do the training (Some lines may differ when training locally) ######
 
 """
 Skin cancer lesion classification using the HAM10000 dataset
@@ -8,11 +8,13 @@ https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 """
 
+### Google Colab ###
 #To Download Data
 ! kaggle datasets download -d kmader/skin-cancer-mnist-ham10000
 
 #Unzip files
 !unzip skin-cancer-mnist-ham10000.zip
+### Google Colab ###
 
 
 import matplotlib.pyplot as plt
@@ -37,7 +39,7 @@ np.random.seed(42)
 
 
 #Read CSV file
-skin_df = pd.read_csv('/content/HAM10000_metadata.csv')
+skin_df = pd.read_csv('/path/HAM10000_metadata.csv')
 
 #Read images based on ID from CSV
 image_path = {os.path.splitext(os.path.basename(x))[0]: x
