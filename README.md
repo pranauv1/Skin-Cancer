@@ -9,5 +9,5 @@ Melanoma (mel)<br>
 Benign keratosis-like lesions (bkl)<br>
 Basal cell carcinoma (bcc) <br>
 Actinic keratoses (akiec)<br>
-Vascular lesions (vas)<br>
+Vascular lesions (vasc)<br>
 Dermatofibroma (df)
